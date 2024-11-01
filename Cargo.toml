@@ -1,0 +1,9 @@
+[package]
+name = "obrc"
+version = "0.1.0"
+edition = "2021"
+about = "First attemtp at 1brc"
+author = "Scott Brugmans"
+
+[dependencies]
+clap = { version = "4.5.*", features = ["derive"] }
